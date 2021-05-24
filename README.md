@@ -179,14 +179,14 @@ CUDA版本 ： CUDA 10.1, CuDNN 7.6
 
 **完成证明：**
 
-![](media/76cfcbbdcf094abf3b3c9ca190d49c93.png)
+![Image text](media/76cfcbbdcf094abf3b3c9ca190d49c93.png)
 
 第三次是在上两次实验的基础上，修改了搜索空间，去除了一些不会是最优解的参数选择，以期待得到更精确的最优参数搭配，**有输出的结果文件（包含所有结果），但由于在远程进行，无法获取WebUI**，**共20个trials，运行23h
 34m 59s，使用GTX1080ti\*4**
 
 **完成证明：**
 
-![](media/a3b447e0d3e6155f401aa2587f5720be.png)
+![Image text](media/a3b447e0d3e6155f401aa2587f5720be.png)
 
 **第一次：本地  来源：第一次结果FcMxgqBE\\db\\** **nni.sqlite**
 
