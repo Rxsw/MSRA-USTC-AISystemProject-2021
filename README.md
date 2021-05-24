@@ -33,49 +33,49 @@ GPU(型号，数目) ： >   NVIDIA GeForce RTX 2060
 
 **软件环境**
 
-OS版本 ： >   Ubuntu 16.04 LTS
+OS版本 ：   Ubuntu 16.04 LTS
 
-深度学习框架 ： >   PyTorch 1.5.0
+深度学习框架 ：    PyTorch 1.5.0
 
-python包名称及版本 ： >   Python 3.7.6
+python包名称及版本 ：    Python 3.7.6
 
-CUDA版本 ： >   CUDA 10.1, CuDNN 7.6
+CUDA版本 ：    CUDA 10.1, CuDNN 7.6
 
 **Bitahub环境：**
 
 **硬件环境**
 
-CPU（vCPU数目） ： >   2 vCPUs
+CPU（vCPU数目） ：   2 vCPUs
 
-GPU(型号，数目) ： >   GTX 1080ti \*2 or TITAN Xp \*2
+GPU(型号，数目) ：    GTX 1080ti \*2 or TITAN Xp \*2
 
 **默认软件环境**
 
-OS版本 ： >   Ubuntu 16.04 LTS
+OS版本 ：    Ubuntu 16.04 LTS
 
-深度学习框架 ： >   PyTorch 1.3
+深度学习框架 ：    PyTorch 1.3
 
-python包名称及版本 ： >   Python 3.6
+python包名称及版本 ：    Python 3.6
 
 CUDA版本 ：
 
->   CUDA_PKG_VERSION=10-0=10.0.130-1
+   CUDA_PKG_VERSION=10-0=10.0.130-1
 
->   CUDA_VERSION=10.0.130
+   CUDA_VERSION=10.0.130
 
->   CUDNN_VERSION=7.4.2.24
+   CUDNN_VERSION=7.4.2.24
 
 **使用的nni镜像软件环境**
 
 >   NNI v1.8 form：msranni/nni (docker.com)
 
-OS版本 ： >   Ubuntu 16.04 LTS
+OS版本 ：    Ubuntu 16.04 LTS
 
-深度学习框架 ： >   PyTorch 1.5.0
+深度学习框架 ：    PyTorch 1.5.0
 
-python包名称及版本 ： >   Python 3.7.6
+python包名称及版本 ：    Python 3.7.6
 
-CUDA版本 ： >   CUDA 10.1, CuDNN 7.6
+CUDA版本 ：    CUDA 10.1, CuDNN 7.6
 
 **二，实验结果**
 
