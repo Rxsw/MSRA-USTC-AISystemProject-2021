@@ -1,0 +1,21 @@
+authorName: DaiRui
+experimentName: cifar-10-nni
+trialConcurrency: 1
+maxExecDuration: 10h
+maxTrialNum: 10
+trainingServicePlatform: local
+searchSpacePath: search_space.json
+useAnnotation: false
+logDir: .
+tuner:
+  builtinTunerName: TPE
+  classArgs:
+    #choice: maximize, minimize
+    optimize_mode: maximize
+trial:
+  command: python main.py
+  codeDir: .
+  gpuNum: 1
+localConfig:
+  useActiveGpu: true
+  maxTrialNumPerGpu: 1

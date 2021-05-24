@@ -1,0 +1,30 @@
+{
+    "initial_lr": {
+        "_type": "loguniform",
+        "_value": [1e-3, 0.1]
+    },
+    "weight_decay": {
+        "_type": "loguniform",
+        "_value": [1e-6, 1e-4]
+    },
+    "cutout": {
+        "_type": "choice",
+        "_value": [0, 4, 8]
+    },
+    "grad_clip": {
+        "_type": "choice",
+        "_value": [1.0, 2.0, 3.0]
+    },
+    "epochs": {
+        "_type": "choice",
+        "_value": [300, 600]
+    },
+    "momentum":{
+        "_type":"uniform",
+        "_value":[0.7, 1]
+    },
+    "model": {
+        "_type": "choice",
+        "_value": ["resnet50","densenet121","resnext50_32x4d"]
+    }
+}
